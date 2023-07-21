@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+header{
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.title-bar{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+   margin-top: 2vh;
+   margin-left: 22vh;
+}
+
+.logo img{
+
+    width: 12vh;
+
+}
+
+.logo:hover img{
+    width: 16vh;
+}
+
+.title{
+    margin-top: 2vh;
+    margin-left: 4vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    line-height: 8.5vh;
+}
+
+.title h1{
+    font-family: 'Aladin', cursive;
+    font-size: 4rem;
+    color: #ff0000;
+    text-shadow: 2px 2px black;
+}
+
+.title:hover h1{
+    color: black;
+    text-shadow: none;
+}
+
+.title p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    color: green;
+}
+
+.title:hover p{
+    font-size: 25px;
+    color: black;
+}
+
+nav{
+    padding: 0 8em;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin: 0 4vh;
+    display: inline;
+}
+
+ul a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Solway', serif;
+    color: black;
+    font-weight: 600;
+}
+
+ul li:hover a{
+    color: blue;
+}
+
+
+.question h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 38px;
+    line-height: 3.5rem;
+    padding: 2rem 0;
+}
+
+.review{
+    width: 70vh;
+    border: 2px solid; 
+    margin: 0 29rem;
+    padding: 2rem 2rem;
+}
+
+.review p{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 20px;
+    word-spacing: 5px;
+    color: #402218;
+    text-align: justify;
+}
+
+.whats-app {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20%;
+    right: 15px;
+    background-color: #13c855;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 10px;
+}
+
+.about{
+    background: linear-gradient(to right,rgb(84, 145, 145),rgb(241, 241, 241));
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    width: 100%;
+    height: 57vh;
+}
+
+.about h2{
+    padding: 4vh 4vh;
+    font-size: 30px;
+}
+
+.about p{
+    padding: 0 6vh 4vh 6vh;
+    font-size: 18px;
+    word-spacing: 5px;
+    line-height: 2em;
+}
+
+.about a{
+    text-decoration: none;
+    margin-left: 6vh;
+    padding: 1vh 2vh;
+    color: #ebdddd;
+    background-color: black;
+}
+
+
+.section-head{
+    display: flex;
+    align-items: center;
+    padding: 2vh 14vh;
+}
+
+.section-title{
+    width:34vh;
+}
+
+.section-title h3{
+    font-family: 'Roboto', sans-serif;
+    color: #292929;
+    margin: 2vh;
+    font-size: 26px;
+}
+
+
+.line{
+    margin: 0 2vh;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(157, 153, 153);
+}
+
+.products{
+    padding: 2vh 16vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item{
+    width: 20%;
+    padding: 2vh 2vh 4vh 2vh;
+    border-right: 0.5px solid rgb(232, 232, 232);  
+    margin-bottom: 4vh;
+}
+
+.product-item:hover{
+    box-shadow: 6px 6px rgb(0 0 0 / 0.1);
+}
+
+.product-item img{
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+.name{
+    margin: 20px 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.quantity{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 4vh;
+}
+
+.price{
+    padding: 1.3vh 2.5vh;
+    border: 1px solid grey;
+    display: inline;border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    margin-left: 32px;
+}
+
+.cart{
+    padding: 1.5vh 3vh;
+    background-color: #92be4d;
+    display: inline;
+    display: inline;border-radius: 10px;
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    margin-left: 2px;
+    font-weight: 600;
+}
+
+.cart i{
+    margin-right: 8px;
+}
+
+.reviews{
+    background-color: rgb(241, 241, 241);
+}
+
+.review-title{
+    padding: 4vh 0px 4vh 0px;
+}
+
+.review-title h2{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.rev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 38%;
+    border: 2px solid black;
+    padding: 3vh;
+    background-color: #ffff;
+    margin: 2vh 1vh;
+}
+
+.profile{
+    width: 12vh;
+    border-radius: 80px;
+    margin-bottom: 1rem;
+}
+
+.rev h2{
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.rev p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.rev-content{
+    display: flex;
+    justify-content: center;
+}
+
+.star{
+    margin-top: 1rem;
+    width: 14vh;
+}
+
+footer{
+    background-color: rgb(84, 145, 145);
+}
+
+
+.contact-container{
+   text-align: center;
+   padding: 2rem 75vh;
+}
+
+.contact-title{
+    margin: 1rem 0px;
+}
+
+.contact-title h2{
+    font-size: 30px;   
+}
+
+
+.Contact-info p{
+    font-size: 16px;
+    color: #fd3e3e;
+}
+
+.contact-title h3{
+    margin: 2rem 0px 0.5rem 0px;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(179, 111, 111);
+    margin: 1rem 0.5rem;
+    padding: 0px 2rem;
+}
+
+.input-box .input-icon{
+    margin: 0px 0.5rem;
+}
+
+.input-text input{
+    border: none;
+    outline: none;
+    width: 46vh;
+    padding: 4px;
+    height: 26px;
+}
+
+.contact-btn a{
+    text-decoration: none;
+    color: black;
+    padding: 0.75rem 1rem; 
+    border-radius: 4px;
+    background-color: #13c855;
+    margin: 0.5rem 0px;
+    display: inline-block;
+}
+
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 6rem 0px 6rem;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0px;
+}
+
+.contact-icon i{
+    margin: 0px 4px;
+    font-size: 22px;
+}
+
+
+.contact-info span{
+    font-size: 18px;
+    margin: 0px 6px;
+    font-weight: 600;
+}
+
+.media a{
+    display: inline;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    margin: 0.5rem 1rem;
+}
+
+.copy-right{
+    width: 100%;
+    text-align: center;
+}
